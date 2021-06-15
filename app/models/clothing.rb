@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: foods
+# Table name: clothings
 #
 #  id         :integer          not null, primary key
 #  name       :string
@@ -8,10 +8,5 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-require "test_helper"
-
-class FoodTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+class Clothing < ApplicationRecord
 end
