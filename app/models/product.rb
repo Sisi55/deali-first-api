@@ -9,5 +9,6 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-class Clothing < Product
+class Product < ApplicationRecord
+  has_many :orders
 end

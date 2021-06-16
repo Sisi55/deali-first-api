@@ -9,5 +9,10 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-class Clothing < Product
+require "test_helper"
+
+class ProductTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
 end

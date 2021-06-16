@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get '/orders', to: 'order#index'
+  post '/orders', to: 'order#create'
+
   get '/clothings', to: 'clothings#index'
   get '/clothings/:id', to: 'clothings#show'
   post '/clothings', to: 'clothings#create'

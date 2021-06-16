@@ -1,8 +1,9 @@
 # == Schema Information
 #
-# Table name: clothings
+# Table name: products
 #
 #  id         :integer          not null, primary key
+#  itemType   :string
 #  name       :string
 #  stock      :integer
 #  created_at :datetime         not null

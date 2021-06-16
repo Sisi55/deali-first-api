@@ -9,5 +9,11 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-class Clothing < Product
-end
+
+one:
+  stock: 1
+  name: MyString
+
+two:
+  stock: 1
+  name: MyString

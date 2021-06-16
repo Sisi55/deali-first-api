@@ -21,7 +21,7 @@ class FoodsController < ApplicationController
   private
 
   def food_params # param 의 list 를 받을 수 있다 ?
-    params.require(:food).permit(:stock, :name)
+    params.require(:food).permit(:stock, :name, :itemType)
     # params.fetch({}).permit(, food: {})
     # params.permit()
   end
